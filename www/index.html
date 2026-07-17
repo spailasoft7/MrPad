@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note App</title>
+
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ===================== -->
+    <!-- TOP BAR -->
+    <!-- ===================== -->
+
+    <header class="topBar">
+
+        <h2>Notes</h2>
+
+        
+    </header>
+
+
+
+    <!-- ===================== -->
+    <!-- SEARCH BAR -->
+    <!-- ===================== -->
+
+    <section class="searchSection">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search notes..."
+        >
+
+    </section>
+
+
+
+    <!-- ===================== -->
+    <!-- NOTES LIST -->
+    <!-- ===================== -->
+
+    <main id="notesContainer">
+
+        <!-- Notes appear here -->
+
+    </main>
+
+
+
+    <!-- ===================== -->
+    <!-- BOTTOM NAVIGATION -->
+    <!-- ===================== -->
+
+    <nav class="bottomNav">
+        <button id="addBtn" class="addBtn">
+            <span class="material-icons">add</span>
+        </button>
+
+    </nav>
+
+
+
+    <!-- ===================== -->
+    <!-- ADD / EDIT MODAL -->
+    <!-- ===================== -->
+
+    <div id="editorModal" class="modal">
+
+        <div class="modalContent">
+
+            <h2>New Note</h2>
+
+            <input
+                id="titleInput"
+                type="text"
+                placeholder="Title"
+            >
+
+            <textarea
+                id="descriptionInput"
+                placeholder="Write your note..."
+            ></textarea>
+<div id="characterCount">0 characters</div>
+            <div class="modalButtons">
+
+                <button id="saveBtn">
+                    Save
+                </button>
+
+                <button id="cancelBtn">
+                    Cancel
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ===================== -->
+    <!-- VIEW NOTE MODAL -->
+    <!-- ===================== -->
+
+    <div id="viewModal" class="modal">
+
+        <div class="modalContent">
+
+            <h2 id="viewTitle"></h2>
+
+            <p id="viewDescription"></p>
+
+            <small id="viewDate"></small>
+
+            <div class="modalButtons">
+
+                <button id="editBtn">
+                    Edit
+                </button>
+
+                <button id="doneBtn">
+                    Done
+                </button>
+
+                <button id="deleteBtn">
+                    Delete
+                </button>
+
+                <button id="closeBtn">
+                    Close
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ===================== -->
+    <!-- SETTINGS PAGE -->
+    <!-- ===================== -->
+
+    <section id="settingsPage">
+
+        <h2>Settings</h2>
+
+        <button id="clearNotesBtn">
+            Delete All Notes
+        </button>
+
+        <button id="backBtn">
+            Back
+        </button>
+
+    </section>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">MrPad</string>
+    <string name="title_activity_main">MrPad</string>
+    <string name="package_name">com.spaila.mrpad</string>
+    <string name="custom_url_scheme">com.spaila.mrpad</string>
+</resources>
