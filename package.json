@@ -18,12 +18,12 @@
     "url": "https://github.com/spailasoft7/MrPad/issues"
   },
   "homepage": "https://github.com/spailasoft7/MrPad#readme",
-  "dependencies": {
-    "@capacitor/android": "^8.4.2",
-    "@capacitor/cli": "^8.4.2",
-    "@capacitor/core": "^8.4.2"
-  },
   "devDependencies": {
-    "@capacitor/assets": "^3.0.5"
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^7.6.8"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.6.8",
+    "@capacitor/core": "^7.6.8"
   }
 }
